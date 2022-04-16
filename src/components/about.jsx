@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import {  } from '../styles/about.css';
 
 export default class About extends Component {
   render() {
     return (
-      <div>
-        <section className="colorlib-about" data-section="about">
-          <div className="colorlib-narrow-content">
+      <div className="about-section">
+        <section data-section="about">
+          <div className="narrow-content">
             <div className="row">
               <div className="col-md-12">
                 <div
@@ -14,8 +15,7 @@ export default class About extends Component {
                 >
                   <div className="col-md-12">
                     <div className="about-desc">
-                      <span className="heading-meta">About Us</span>
-                      <h2 className="colorlib-heading">Who Am I?</h2>
+                      <h2 className="heading">Who Am I?</h2>
                       <p>I am a software developer</p>
                     </div>
                   </div>
@@ -24,15 +24,14 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className="colorlib-about">
-          <div className="colorlib-narrow-content">
+        <section>
+          <div className="narrow-content">
             <div className="row">
               <div
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">
+                <h2 className="heading">
                   Here are some of my expertise
                 </h2>
               </div>
@@ -44,10 +43,9 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                   </span>
                   <div className="desc">
-                    <h3>Web Development </h3>
+                    <h3>Mid-Level Software Developer at Seven Peaks Software</h3>
                     <p>
-                      I have experience building websites and chrome extentions
-                      using JavaScript,React,HTML,CSS
+                      Desgins, develops and maintains the backend server of a Property Managerment platform which serves the users, the professional real estate agencies, of around 100+ per day.
                     </p>
                   </div>
                 </div>
@@ -58,10 +56,9 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                   </span>
                   <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
+                    <h3>Software Developer at HydroNeo Ltd,.</h3>
                     <p>
-                      As coming from the CS background, I have good grasp over
-                      fundamental concepts of DSA
+                      Designs, develops, and maintain both the backend server and the mobile application by using Flutter as a development framework for the mobile app. And used RxJava with Spring Framework for the backend server.
                     </p>
                   </div>
                 </div>
@@ -72,10 +69,9 @@ export default class About extends Component {
                     <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Dev Ops</h3>
+                    <h3>Application Development Senior Analyst at Accenture</h3>
                     <p>
-                      I am pursuing my internship with DevOps team at Juniper
-                      and working with tools like Jenkins, Docker, K8s
+                      Involved in design process and also develops & maintain the API Gateway using Apigee for a large-scale mobile-banking application that servers the target user of more than 1 million users per month.
                     </p>
                   </div>
                 </div>
