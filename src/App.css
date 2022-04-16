@@ -32,10 +32,7 @@
   }
 }
 
-#wrapper {
-  display: flex;
-}
-
 #main {
-  flex: 50%;
+  float: right;
+  width: calc(100% - 225px);
 }

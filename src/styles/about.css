@@ -2,3 +2,18 @@
     float: left;
     padding: 0 10px 0 10px;
 }
+
+.experiences {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.experiences-paragragh {
+    text-align: initial;
+}
+
+#svp-img {
+    width: 25%;
+}
