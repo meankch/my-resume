@@ -1,0 +1,35 @@
+.about-section {
+    float: left;
+    height: auto;
+    padding: 0 10px 0 10px;
+}
+
+.experiences {
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.experiences-paragragh {
+    text-align: initial;
+}
+
+.exp-title {
+    padding: 10px 0 10px 0;
+}
+
+#svp-img, #hydroneo-img, #acn-img {
+    width: 100%;
+}
+
+#svpeaks-img, #hdn-img, #accenture-img {
+    width: 120px;
+}
+
+#svpeaks-designation, #hydroneo-designation, #acn-designation {
+    text-align: initial;
+}
+
+#svpeaks-designation-txt, #hydroneo-designation-txt, #acn-designation-txt {
+    line-height: 1.2;
+}

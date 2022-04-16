@@ -1,0 +1,37 @@
+.skills-section {
+    float: left;
+    height: auto;
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+div p {
+    margin: 0;
+}
+
+div hr {
+    margin: 0;
+}
+
+#box-title {
+    padding: 10px 0 10px 0;
+}
+
+#skills-summary {
+    flex-flow: row;
+}
+
+#programming, #framework, #ci-cd {
+    text-align: initial;
+}
+
+#row-item {
+    width: 100%;
+    padding: 15px 10px 15px 10px;
+}
+
+#programming-desc, #yrs-desc {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+}
