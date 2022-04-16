@@ -49,6 +49,11 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li>
+                  <a href="#experiences" data-nav-section="experiences">
+                    Experiences
+                  </a>
+                </li>
+                <li>
                   <a href="#skills" data-nav-section="skills">
                     Skills
                   </a>
@@ -56,28 +61,6 @@ export default class Sidebar extends Component {
               </ul>
             </div>
           </nav>
-
-          {/* <div className="row-content">
-            <div className="column">
-              <a
-                href="https://www.linkedin.com/in/nkaenchan/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={brands("linkedin")} />
-              </a>
-            </div>
-            <div className="column">
-              <a
-                href="https://github.com/meankch"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={brands("github")} />
-              </a>
-            </div>
-          </div> */}
-
           <div className="sidebar-footer">
             <p>
               <small>

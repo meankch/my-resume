@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar";
 import About from "./components/about";
+import Skills from "./components/skills";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <Sidebar></Sidebar>
         <div id="main">
           <About></About>
+          <Skills></Skills>
         </div>
       </div>
     );
