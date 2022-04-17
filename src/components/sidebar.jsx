@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {} from "../styles/sidebar.css";
+import profilePicture from '../assets/profile-picture.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -9,7 +10,7 @@ export default class Sidebar extends Component {
       <div className="sidebar">
         <aside className="js-fullheight">
           <div className="text-center profile-section">
-            <img src="../assets/profile-picture.jpg" alt="profile-pic" />
+            <img src={profilePicture} alt="profile-pic" />
             <h1>
               <a href="index.html">Mean Kaenchan</a>
             </h1>

@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import {} from "../styles/about.css";
+import acnLogo from '../assets/acnLogo.png';
+import hydroneoLogo from '../assets/hydroneo-logo.png';
+import sevenpeaksLogo from '../assets/sevenpeaks-logo.jpg';
 
 export default class About extends Component {
   render() {
@@ -48,7 +51,7 @@ export default class About extends Component {
                     <div className="col-2" id="svpeaks-img">
                       <img
                         id="svp-img"
-                        src="../assets/sevenpeaks-logo.jpg"
+                        src={sevenpeaksLogo}
                         alt="sevenpeaks-software-logo"
                       ></img>
                     </div>
@@ -86,7 +89,7 @@ export default class About extends Component {
                     <div className="col-2" id="hdn-img">
                       <img
                         id="hydroneo-img"
-                        src="../assets/hydroneo-logo.png"
+                        src={hydroneoLogo}
                         alt="hydroneo-ltd-logo"
                       ></img>
                     </div>
@@ -130,7 +133,7 @@ export default class About extends Component {
                     <div className="col-2" id="accenture-img">
                       <img
                         id="acn-img"
-                        src="../assets/accenture-logo.png"
+                        src={acnLogo}
                         alt="accenture-corp-logo"
                       ></img>
                     </div>
@@ -173,7 +176,7 @@ export default class About extends Component {
                     <div className="col-2" id="accenture-img">
                       <img
                         id="acn-img"
-                        src="../assets/accenture-logo.png"
+                        src={acnLogo}
                         alt="accenture-corp-logo"
                       ></img>
                     </div>
