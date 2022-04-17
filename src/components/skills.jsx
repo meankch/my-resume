@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {} from "../styles/skills.css";
+import apigeeSvg from '../assets/apigeeSvg.svg';
 
 export default class Skills extends Component {
   render() {
@@ -309,7 +310,7 @@ export default class Skills extends Component {
                 <hr />
                 <div id="row-item" className="row">
                   <div id="programming-img" className="col-md-2">
-                    <img src="../assets/apigee-svg.svg" alt="apigee-lang" />
+                    <img src={apigeeSvg} alt="apigee-lang" />
                   </div>
                   <div id="programming-desc" className="col-md-7">
                     <p>Apigee</p>
