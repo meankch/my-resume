@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {} from "../styles/sidebar.css";
-import profilePicture from '../assets/profile-picture.jpg';
+import profilePicture from "../assets/profile-picture.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 

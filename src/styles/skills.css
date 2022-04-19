@@ -35,3 +35,8 @@ div hr {
     display: flex;
     align-items: center;
 }
+
+#programming-img {
+    max-width: 15vw;
+    min-width: 5.25vw;
+}
