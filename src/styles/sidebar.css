@@ -36,12 +36,17 @@ span a:hover {
   text-decoration: none;
 }
 
+.social-links {
+  padding: 5px 0;
+}
+
 .fa-heart {
   padding: 0 5px 0 5px;
 }
 
 .profile-section {
   margin-bottom: 30px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -52,7 +57,7 @@ span a:hover {
   margin: 0 auto;
 }
 
-.profile-section h1 a {
+.profile-section h2 a {
   text-decoration: none;
   color: rgb(73, 70, 70);
   margin: 10px 0 5px;
@@ -64,6 +69,7 @@ span a:hover {
 
 .sidebar-footer {
   text-align: center;
+  padding: 5px 10px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
