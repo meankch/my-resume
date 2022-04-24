@@ -6,7 +6,7 @@ import apigeeSvg from "../../assets/apigeeSvg.svg";
 
 export default function ApiManagementCard() {
   return (
-    <Card style={{ minWidth: 250, width: 400, height: 220, maxHeight: 320 }}>
+    <Card style={{ minWidth: 250, width: 400, minHeight: 220, maxHeight: "60vh" }}>
       <CardContent>
         <Typography variant="h6" component="div">
           API Management

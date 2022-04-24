@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 
 export default function FrameworkCard() {
   return (
-    <Card style={{ minWidth: 250, width: 400, minHeight: 220, maxHeight: 320 }}>
+    <Card style={{ minWidth: 250, width: 400, minHeight: 220, maxHeight: "60vh" }}>
       <CardContent>
         <Typography variant="h6" component="div">
           Framework
